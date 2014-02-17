@@ -1,0 +1,115 @@
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  width: 100%;
+	margin:0;
+  background-color: #333;
+	background-size: 100%;
+	font-family:"Helvetica Neue", Helvetica sans-serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+@font-face {
+  font-family: "Helvetica Neue", Helvetica sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*
+ * Middle of the page
+ */
+#middle {
+	position:absolute;
+	top:200px;
+	left:50%;
+	margin-left:-250px;
+	width:500px;
+}
+
+/*
+ * Introduction -- name, resume
+ */
+#intro {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	padding:20px;
+	text-align:center;
+	line-height:1.5em;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	position:relative;
+	top:0;
+	font-size: 30pt;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+#intro strong {
+	background-color: #333;
+	font-family: 'Andika';
+}
+#intro em { 
+	font-family: 'Give You Glory', cursive;
+	color: white;
+}
+
+/*
+ * Links to social media
+ */
+#links {
+	position:absolute;
+	top:500px;
+	left:50%;
+	margin-left:-250px;
+	width:500px;
+	text-align:center;
+}
+
+#links img {
+	border-radius:3px;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	color:white;
+}
+
+der-bottom: 1px solid #666;
+}
+
+#media {
+	font-size: 13px;
+}
+.social a:link, .social a:visited {
+	color:white;
+	padding: 0.69em 0.35em 0.25em 0.50em;/
+}
+.social i {
+	font-size: 20px;
+}
+.social {
+	display:inline-block;
+}
+.social a:hover {
+	border-bottom:1px solid white;
+}
+.social:not(:first-child):before {
+	padding:0 0.6em;
+	color:rgba(0,0,0,0.69);
+	font-family:Helvetica, sans-serif;
+}

@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>    
-    <link type="text/css" rel="stylesheet" href="sheet.css" />
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <link type="image/png" rel="icon" href="pictures/favicon.png" />
+    <!-- Custom page CSS -->
+    <link href="css/sheet.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     
-    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <!-- Icons for social media-->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
     
-    <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'>
-  
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/img/ico/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/ico/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'>
+    
     <title>Eduardo Ramirez</title>
   </head>
-  
-  <div id="container">
-    <div id="header">
-     <div id="top-left">
-        <a href="index.html" id="home-link">Eduardo Ramirez</a>
-      </div>
 
-      <div id="top-right">        
-        <table id="top-links">
-          <tr>
-            <td><a href="files/resume.pdf" id="resume-link"> Resume </a></td>
-            <td class="bars"> | </td>
-            <td id="soon-link"> More coming soon.. </td>
-          </tr>
-        </table>    
-      </div>
-    </div>
-    
-    <div id="body">
-      <div id="middle-left">
-        <img src="pictures/Me.jpg" id="pic" alt:"Eddy"/>
-      </div>
-    </div>
-    
-    <div id="footer">
-      <div id="bottom-left">
-        <h4 id="copyright">&copy; 2014 by Eduardo Ramirez</h4>
-        <h4 id="copyright2">All rights reserved.</h4>
-      </div>
+  <body>
   
-      <div id="bottom-right">      
-        <table id="social">
-          <th colspan="2" id="social-title">Contact me</th>
-          <tr>
-            <td><a href="http://www.linkedin.com/in/edyr96"><img src="icons/linkedin.png" alt:"Linkedin" /></a></td>
-            <td><a href="http://github.com/eduardoramirez"><img src="icons/github.png" alt:"Github" /></a></td>
-            <td><a href="http://www.facebook.com/edyr96"><img src="icons/facebook.png" alt:"Facebook" /></a></td>
-            <td><a href="mailto:eduardo@ucsd.edu"><img src="icons/mail.png" alt:"Mail" /></a></td>
-          </tr>
-        </table>
+    <!-- Middle of the page. The intro to the whole page -->
+    <!-- Makes the intro clickable to see Resume -->
+    <div id="middle"> 
+      <a href="docs/Resume.pdf">
+      <div id="intro" class=""><em>hello, i'm</em><br><strong>Eduardo Ramirez</strong></div></a>
+    </div>
+
+    <!-- Links to social media -->
+    <div id="links">
+      <div id="media">
+        <div class="social">
+          <a href="https://github.com/eduardoramirez">
+          <i class="icon-github"></i> GitHub</a>
+        </div>
+
+        <div class="social">
+          <a href="mailto:eduardo@ucsd.edu">
+          <i class="icon-cloud"></i> Email</a>
+        </div>
+
+        <div class="social">
+          <a href="http://www.linkedin.com/in/edyr96">
+          <i class="icon-linkedin"></i> LinkedIn</a>
+        </div>
       </div>
     </div>
-    
-  </div>
-  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+  </body>
 </html>
