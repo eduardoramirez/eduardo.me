@@ -105,7 +105,7 @@ a:link, a:visited, a:active {
     width: 300px;
     left: 0;
     margin-left:0;
-    top: 150px;
+    top: 125px;
   }
 
   #links{  
@@ -113,6 +113,7 @@ a:link, a:visited, a:active {
     margin-left:0;
     width:320px;
     top: 400px;
+    padding-bottom: 10px;
   }
 }
 
@@ -121,13 +122,14 @@ a:link, a:visited, a:active {
     width: 300px;
     left: 0;
     margin-left:0;
-    top: 150px;
+    top: 125px;
   }
 
   #links{  
     left:0;
     margin-left:0;
     width:320px;
-    top: 450px;
+    top: 400px;
+    padding-bottom: 10px;
   }
 }
