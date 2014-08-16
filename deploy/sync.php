@@ -1,10 +1,6 @@
 <?php
 	/**
 	 * GIT DEPLOYMENT SCRIPT
-	 *
-	 * Used for automatically deploying websites via github or bitbucket, more deets here:
-	 *
-	 *		https://gist.github.com/1809044
 	 */
 
 	// The commands
@@ -41,7 +37,7 @@
  .  ____  .    ____________________________
  |/      \|   |                            |
 [| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Git Deployment Script v0.1 |
- |___==___|  /              &copy; oodavid 2012 |
+ |___==___|  /                             |
               |____________________________|
 
 <?php echo $output; ?>
