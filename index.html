@@ -1,71 +1,67 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
   <head>
+
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <!-- Custom page CSS -->
-    <link href="css/sheet.css" rel="stylesheet" type="text/css">
-    <!-- Bootstrap CSS-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Icons for social media-->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
-    
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="assets/img/ico/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/img/ico/favicon.ico" type="image/x-icon">
-    
+
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'>
-    
+
+    <!-- Icons for social media-->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
     <title>Eduardo Ramirez</title>
   </head>
 
   <body>
 
-    <div class="site-wrapper">
-      <div clsas="site-wrapper-inner">
-        <div class="cover-container">
+    <div id="topbar">
+    </div>
 
-          <!-- Middle of the page. The intro to the whole page --> 
-          <!--Makes the intro clickable to see Resume --> 
-          <div id="middle"> 
-            <a href="docs/Resume.pdf"> 
-              <div id="intro" class=""><em>hello, i'm</em><br><strong>Eduardo Ramirez</strong>
-              </div></a> 
-          </div>
+    <div id="mid">
+      <a href="docs/Resume.pdf">
+        <div id="intro"><em>hello, i'm </em><strong>eduardo</strong>
+        </div>
+      </a>
+      <div id="resume">&uarr; view my <strong>resume</strong>
+      </div>
+    </div>
 
-          <!-- Links to social media --> 
-          <div id="links"> 
-            <div id="media"> 
-              <div class="social"> 
-                <a href="https://github.com/eduardoramirez"> 
-                  <i class="icon-github"></i> GitHub</a> 
-              </div>
+    <div id="links">
+      <div id="socials">
 
-              <div class="social"> 
-                <a href="mailto:eduardo@ucsd.edu"> 
-                <i class="icon-cloud"></i> Email</a> 
-              </div>
+        <div class="social">
+          <a href="https://github.com/eduardoramirez">
+            <i class="icon-github"></i> GitHub</a>
+        </div>
 
-              <div class="social"> 
-                <a href="http://www.linkedin.com/in/edyr96"> 
-                <i class="icon-linkedin"></i> LinkedIn</a> 
-              </div> 
-            </div>
-          </div>
+        <div class="social">
+          <a href="mailto:eduardo@ucsd.edu">
+            <i class="icon-cloud"></i> Email</a>
+        </div>
+
+        <div class="social">
+          <a href="http://www.linkedin.com/in/edyr96"><i class="icon-linkedin"></i> LinkedIn</a>
         </div>
       </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="dist/js/bootstrap.min.js"></script>
-
+    <!-- JS for hover -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        window.setTimeout(function() {
+          $("#intro").addClass("hover");
+          window.setTimeout(function() {
+            $("#intro").removeClass("hover");
+          }, 2000);
+        }, 500);
+      });
+    </script>
   </body>
 </html>

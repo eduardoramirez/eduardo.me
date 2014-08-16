@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  margin:0;
+  background-color:#CFCFC4;
+  background-size: 100%;
+  font-family:"Helvetica Neue", Helvetica;
+}
+
+#topbar {
+  background: #3b7bbf;
+  margin-top: 0;
+  height: 20px;
+}
+
+#mid {
+  position:absolute;
+  top:200px;
+  left:50%;
+  margin-left:-250px;
+  width:500px;
+}
+
+#intro {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  padding:20px;
+  text-align:center;
+  line-height:1.5em;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  position:relative;
+  top:0;
+  font-size: 30pt;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#intro strong {
+  color: #333; 
+  background-color:#CFCFC4;
+}
+
+#intro em {
+  color: #333;
+  font-family: 'Give You Glory', cursive;
+  background-color:#CFCFC4;
+}
+
+#mid:hover #intro, #intro.hover {
+  top:-12px;
+  margin-bottom:15px;
+}
+
+#resume {
+  font-size:11px;
+  padding:0 5px;
+  text-align:center;
+  position:relative;
+  top:-46px;
+  z-index:-1;
+  font-family:Helvetica,sans-serif;
+  letter-spacing: 0.5pt;
+}
+
+#links {
+  position:absolute;
+  top:400px;
+  left:50%;
+  margin-left:-250px;
+  width:500px;
+  text-align:center;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color:black;
+}
+
+#socials {
+  font-size: 13px;
+}
+.social a:link, .social a:visited {
+  color:black;
+  padding: 0.69em 0.35em 0.25em 0.50em;
+}
+.social i {
+  font-size: 20px;
+}
+.social {
+  display:inline-block;
+}
+.social a:hover {
+  border-bottom:1px solid #666;
+}
+
+/* Response to mobile views -- both iphone/android */
+@media (max-width: 320px) {
+  #mid {
+    width: 300px;
+    left: 0;
+    margin-left:0;
+    top: 150px;
+  }
+
+  #links{  
+    left:0;
+    margin-left:0;
+    width:320px;
+    top: 450px;
+  }
+}
+
+@media (max-width: 360px) {
+  #mid {
+    width: 300px;
+    left: 0;
+    margin-left:0;
+    top: 150px;
+  }
+
+  #links{  
+    left:0;
+    margin-left:0;
+    width:320px;
+    top: 450px;
+  }
+}
