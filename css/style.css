@@ -42,6 +42,7 @@ body {
 }
 
 #intro strong {
+    font-family:"Helvetica Neue", Helvetica;
   color: #333; 
   background-color:#CFCFC4;
 }
