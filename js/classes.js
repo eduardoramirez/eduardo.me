@@ -6,7 +6,7 @@ var classes = [
     tools: ["Java"],
   },
   {
-    quarter: "Fall 2012",
+    quarter: "Winter 2013",
     course: "CSE 8B",
     title: "Introduction to Computer Science: Java II",
     tools: ["Java"],

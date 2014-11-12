@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eduardo Ramirez">
+    <meta name="author" content="Eduardo Ramirez">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Ramirez</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
@@ -12,52 +17,75 @@
     <!-- Icons for social media-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
 
-    <!-- Custom style -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-    <title>Eduardo Ramirez</title>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
 
-    <div id="topbar">
-    </div>
-
-    <div id="mid">
-      <a href="docs/Resume.pdf">
-        <div id="intro"><em>hello, i'm </em><strong>eduardo</strong>.
-        </div>
-      </a>
-      <div id="resume">&uarr; view my <strong>resume</strong>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="#">Home</a>
+          <a class="blog-nav-item" href="courses.html">Coursework</a>
+          <a class="blog-nav-item" href="#">Projects</a>
+        </nav>
       </div>
     </div>
 
-    <div id="links">
-      <div id="socials">
+    <div class="container">
 
-        <div class="social">
-          <a href="https://github.com/eduardoramirez">
-            <i class="icon-github"></i> GitHub</a>
-        </div>
-
-        <div class="social">
-          <a href="mailto:eduardo@ucsd.edu">
-            <i class="icon-cloud"></i> Email</a>
-        </div>
-
-        <div class="social">
-          <a href="http://www.linkedin.com/in/edyr96"><i class="icon-linkedin"></i> LinkedIn</a>
+       <div id="mid">
+        <a href="docs/Resume.pdf">
+          <div id="intro"><em>hello, i'm </em><strong>eduardo</strong>.
+          </div>
+        </a>
+        <div id="resume">&uarr; view my <strong>resume</strong>
         </div>
       </div>
-    </div>
 
-    <!-- JS for hover -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>
+
+      <div id="links">
+        <div id="socials">
+
+          <div class="social">
+            <a href="https://github.com/eduardoramirez">
+              <i class="icon-github"></i> GitHub</a>
+          </div>
+
+          <div class="social">
+            <a href="mailto:eduardo@ucsd.edu">
+              <i class="icon-cloud"></i> Email</a>
+          </div>
+
+          <div class="social">
+            <a href="http://www.linkedin.com/in/edyr96"><i class="icon-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+     <script>
       $(document).ready(function() {
         window.setTimeout(function() {
           $("#intro").addClass("hover");
