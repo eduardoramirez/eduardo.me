@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Eduardo Ramirez">
     <meta name="author" content="Eduardo Ramirez">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>Eduardo | Courses</title>
 
@@ -41,7 +40,7 @@
         <nav class="blog-nav">
           <a class="blog-nav-item" href="index.html">Home</a>
           <a class="blog-nav-item active" href="#">Coursework</a>
-          <a class="blog-nav-item" href="#">Projects</a>
+          <a class="blog-nav-item" id="tip" href="#" data-toggle="tooltip" data-placement="bottom" title="Under Construction">Projects</a>
         </nav>
       </div>
     </div>
@@ -101,6 +100,12 @@
     </div>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script>
+      $("#tip").hover( function(){
+        $(this).tooltip('show');
+      });
+    </script>
   </body>
 </html>

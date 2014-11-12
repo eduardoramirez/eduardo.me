@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Eduardo Ramirez">
     <meta name="author" content="Eduardo Ramirez">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>Eduardo Ramirez</title>
 
@@ -41,7 +40,7 @@
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="#">Home</a>
           <a class="blog-nav-item" href="courses.html">Coursework</a>
-          <a class="blog-nav-item" href="#">Projects</a>
+          <a class="blog-nav-item" id="tip" href="#" data-toggle="tooltip" data-placement="bottom" title="Under Construction">Projects</a>
         </nav>
       </div>
     </div>
@@ -93,6 +92,10 @@
             $("#intro").removeClass("hover");
           }, 2000);
         }, 500);
+      });
+
+      $('#tip').hover( function(){
+        $(this).tooltip('show');
       });
     </script>
   </body>
