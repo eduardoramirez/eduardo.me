@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'>
+
+    <!-- Icons for social media-->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Eduardo | Courses</title>
+  </head>
+
+  <body>
+
+    <div id="topbar">
+    </div>
+
+    <div class = "container">
+      <div class="panel">
+        <header class="panel-heading">
+          <h2>Relevant Coursework</h2>
+        </header>
+        <div class="panel-body">
+          <div class="adv-table">
+            <table class="display table table-striped table-hover" id="hidden-table-info">
+              <thead>
+                <tr>
+                  <th>Quarter</th>
+                  <th>Course</th>
+                  <th>Title</th>
+                  <th>Tools</th>
+                </tr>
+              </thead>
+              <tbody>
+                <script src="js/classes.js"></script>
+                <script>
+                  var q = "";
+                  for(var course in classes){ 
+                    document.write("<tr>");
+
+                    if (q != classes[course].quarter){
+                      document.write("<td>" + classes[course].quarter + "</td>");
+                      q = classes[course].quarter;
+                    } 
+                    else {
+                      document.write("<td></td>");
+                    }
+
+                    document.write("<td>" + classes[course].course + "</td>");
+                    document.write("<td>" + classes[course].title + "</td>");
+
+                    document.write("<td>");
+                    for(var i = 0; i < classes[course].tools.length; i++) {
+                      if(i == classes[course].tools.length - 1) {
+                        document.write(classes[course].tools[i]);
+                      }
+                      else {
+                        document.write(classes[course].tools[i] + ", ");
+                      }
+                    }
+                    document.write("</td>");
+                    document.write("</tr>");
+                  }
+                </script>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  </body>
+</html>
