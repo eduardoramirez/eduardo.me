@@ -1,1 +1,1 @@
-Contains the source code to my website. 
+Source code to my website. 
