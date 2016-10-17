@@ -9,15 +9,11 @@
 
     <title>Eduardo Ramirez</title>
 
+    <!-- Icons -->
+    <script src="https://use.fontawesome.com/b58d98af35.js"></script>
+
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'>
-
-    <!-- Icons for social media-->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
@@ -34,69 +30,30 @@
   </head>
 
   <body>
-
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="courses.html">Coursework</a>
-          <a class="blog-nav-item" id="tip" href="#" data-toggle="tooltip" data-placement="bottom" title="Under Construction">Projects</a>
-        </nav>
+    <div class="content">
+      <div class="intro-name">
+        <p>hello, i'm <strong>eduardo</strong></p>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="https://www.github.com/eduardoramirez"><i class="fa fa-github fa-3" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/edyr96"><i class="fa fa-linkedin fa-3" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:edyr96@hotmail.com"><i class="fa fa-paper-plane fa-3" aria-hidden="true"></i></a></li>
+        </ul>
       </div>
     </div>
 
-    <div class="container">
-
-       <div id="mid">
-        <a href="docs/Resume.pdf">
-          <div id="intro"><em>hello, i'm </em><strong>eduardo</strong>.
-          </div>
-        </a>
-        <div id="resume">&uarr; view my <strong>resume</strong>
-        </div>
-      </div>
-
-
-      <div id="links">
-        <div id="socials">
-
-          <div class="social">
-            <a href="https://github.com/eduardoramirez">
-              <i class="icon-github"></i> GitHub</a>
-          </div>
-
-          <div class="social">
-            <a href="mailto:eduardo@ucsd.edu">
-              <i class="icon-cloud"></i> Email</a>
-          </div>
-
-          <div class="social">
-            <a href="http://www.linkedin.com/in/edyr96"><i class="icon-linkedin"></i> LinkedIn</a>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-     <script>
-      $(document).ready(function() {
-        window.setTimeout(function() {
-          $("#intro").addClass("hover");
-          window.setTimeout(function() {
-            $("#intro").removeClass("hover");
-          }, 2000);
-        }, 500);
-      });
-
-      $('#tip').hover( function(){
-        $(this).tooltip('show');
-      });
+    <script>
+      var colors = [
+        '#F8F9F9',
+        '#F4F9FB',
+        '#F9F6FB',
+        '#FFFAF3',
+        '#F5FCF8',
+        '#FEFCF3',
+        '#FCF5F5',
+      ];
+      document.body.style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
     </script>
     <script src="js/analyticstracking.js"></script>
   </body>
