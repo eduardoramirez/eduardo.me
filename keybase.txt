@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/eduardoramirez
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://eduardo.me
+  * I am eduardoramirez (https://keybase.io/eduardoramirez) on keybase.
+  * I have a public key with fingerprint BBD6 7B76 27B1 F230 40E4  7448 49B6 AF73 FEC5 AF71
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014a1667ae94fb70816e06ff5690d9aeb443ee0d9e8713532396c1e984043c21400a",
+            "fingerprint": "bbd67b7627b1f23040e4744849b6af73fec5af71",
+            "host": "keybase.io",
+            "key_id": "49b6af73fec5af71",
+            "kid": "01014a1667ae94fb70816e06ff5690d9aeb443ee0d9e8713532396c1e984043c21400a",
+            "uid": "521cdd77efe879617fc0d32e176fc100",
+            "username": "eduardoramirez"
+        },
+        "service": {
+            "hostname": "eduardo.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485290822,
+    "expire_in": 157680000,
+    "prev": "bf2bad5ae8c7ddc440acd62ff2f054a4df935233cfc4ab71ea06a817d3296f68",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJJaBRBFJ1oYjA6qDdRIdK4oMRY1V1d3T0IiksSvKigo6g4VteStJNM
+jz09Y2ISR0FxQTyJQuLBi2iCxgVREEIWN1CDqLgRXCNKMCrEBAnqYHXQg+DRuvz6
+v957f6l/Izw2VJR3TW9PVRxtr8i729WUDm3Y315Wr9guq1Mi9UqcjxpezXjKj8Ud
+pkQUAAFEBGJsEG4hYRvAhJgDLISOLcAswm2ENM7llZsG1HRN1SxMIbdMBJBGVYgA
+IEqJIpxEJfeSnpPwpaxtM2zYBlYNGwpVAwhwZCBkIsvGRBia4FSXFkpilZsKGLI4
+m6R4qePKmHRio+X9A/+f606PyukqpIwZBhcSbWFoCAqYpnJoYEEhAAEwxb0EqeES
+zVmaeMz1SI3j8Z1KY4ki3zIO5cF4g37+xpVKp0RJeq7vUrdaxqt8PxkJaH5dMsDt
+4Hbst0LMdhJMjlISMtxLOW5CiUCJpL4TSEJk6qoFTFUtUXhtUqaPOQFCN7AJ5AnS
+8EzwAUK1CdMJN6nBGEUIEMqwKoQqgI4IYsLSdFXTqKCI2AbkBGBiQkM2bWGBTSXo
+aXvCVSJIlkkqpWTKqUwQP+1xpbG7c3N+KK8oNK5gTLBioaLxk/8sXm5xYW5RW2cl
+maXdzjt2pX3V98u1zS+Lf+wZbhzad7Kt/ursBfHXw7mW3c9ai5edm1g6kLQ+NG56
+vHpSZOPFLGb70nduNkfRiole90g29uDzp74z9+duuVOeG+nrGr90qPjYlApvfm3/
+8+5pKGQ99ai9PHPpbEF552Bb2Fu49aNL155f83TJhTn3NhQ+mRnvWds70JBN1H6J
+7dj2aNfV/Bflh8u2rT64YPBVy9m935ZPTp048jN8/Vbv0NRDE8Sb7NB0h/eHjzfd
+C3/tWNVaVfe8Z+T4+xn3C1Z2Z+Zd6jj/tszPxauj1G54GH3cOjW3Zl1Lz6mVB9x3
+auiCt/7o6WzHgWjvyeirnl+bb0u2
+=kzOL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eduardoramirez
+
+==================================================================
+
